@@ -5,7 +5,7 @@ class Solution:
         for j in range(min_length):
             char=strs[0][j]
             for s in strs:
-              if s[j] != char:        # mismatch
+              if s[j] != char:
                 return prefix
             prefix += char
         return prefix  
